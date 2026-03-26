@@ -168,25 +168,53 @@
       addMessage(text, 'user');
       setUI(true);
 
-      const thinking = addMessage('Thinking…', 'agent thinking');
+      const agentBubble = addMessage('', 'agent');
 
       try {
-        const res = await fetch('/chat', {
+        const res = await fetch('/chat/stream', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ message: text }),
         });
 
-        const data = await res.json();
-        thinking.remove();
-
-        if (!res.ok) {
-          addMessage(data.error || 'Something went wrong.', 'error');
-        } else {
-          addMessage(data.reply, 'agent');
+        if (!res.ok || !res.body) {
+          agentBubble.remove();
+          addMessage('Something went wrong.', 'error');
+          setUI(false);
+          return;
         }
+
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+          const lines = buffer.split('\n');
+          buffer = lines.pop() ?? '';
+
+          for (const line of lines) {
+            if (!line.startsWith('data: ')) continue;
+            const payload = line.slice(6);
+            if (payload === '[DONE]') break;
+            try {
+              const { token, error } = JSON.parse(payload);
+              if (error) { agentBubble.textContent = error; break; }
+              if (token) {
+                agentBubble.textContent += token;
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+              }
+            } catch { /* malformed chunk — skip */ }
+          }
+        }
+
+        if (!agentBubble.textContent) agentBubble.remove();
+
       } catch (_err) {
-        thinking.remove();
+        agentBubble.remove();
         addMessage('Could not reach the server. Is it running?', 'error');
       }
 
