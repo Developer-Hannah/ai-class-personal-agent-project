@@ -143,7 +143,7 @@ Keys are stored in a `.env` file, never committed to git.
 ## 12. Repo Structure (Target)
 
 ```
-career-agent/
+AI Class Personal Agent Project/
 ├── src/
 │   ├── agent.ts          # ReAct agent setup + tool wiring
 │   ├── tools/
@@ -157,9 +157,14 @@ career-agent/
 │   └── index.html        # Chat UI
 ├── docs/                 # Career guidance documents (RAG source files)
 ├── aiDocs/
+│   ├── context.md
 │   ├── prd.md            # This document
-│   ├── roadmap.md
-│   └── context.md
+│   ├── mvp.md
+│   └── architecture.md
+├── ai/
+│   ├── changelog.md
+│   ├── guides/
+│   └── roadmaps/         # Date-prefixed phase plans + phase roadmaps
 ├── .env                  # API keys (gitignored)
 ├── .gitignore
 ├── package.json
