@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Compass</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100dvh;
+      padding: 16px;
+    }
+
+    header {
+      width: 100%;
+      max-width: 720px;
+      padding: 12px 0 8px;
+    }
+
+    header h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #1a1a2e;
+    }
+
+    header p {
+      font-size: 0.8rem;
+      color: #666;
+      margin-top: 2px;
+    }
+
+    #chat-window {
+      width: 100%;
+      max-width: 720px;
+      flex: 1;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid #dde1e7;
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 8px 0;
+    }
+
+    .message {
+      max-width: 88%;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 0.92rem;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .message.user {
+      align-self: flex-end;
+      background: #1a73e8;
+      color: #fff;
+      border-bottom-right-radius: 3px;
+    }
+
+    .message.agent {
+      align-self: flex-start;
+      background: #f1f3f4;
+      color: #1a1a2e;
+      border-bottom-left-radius: 3px;
+    }
+
+    .message.agent.thinking {
+      color: #888;
+      font-style: italic;
+    }
+
+    .message.error {
+      align-self: flex-start;
+      background: #fdecea;
+      color: #c62828;
+      border-bottom-left-radius: 3px;
+    }
+
+    #input-row {
+      width: 100%;
+      max-width: 720px;
+      display: flex;
+      gap: 8px;
+    }
+
+    #user-input {
+      flex: 1;
+      padding: 10px 14px;
+      font-size: 0.92rem;
+      border: 1px solid #dde1e7;
+      border-radius: 8px;
+      outline: none;
+      background: #fff;
+    }
+
+    #user-input:focus { border-color: #1a73e8; }
+    #user-input:disabled { background: #f5f5f5; }
+
+    #send-btn {
+      padding: 10px 20px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      background: #1a73e8;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    #send-btn:hover:not(:disabled) { background: #1558b0; }
+    #send-btn:disabled { background: #a8c4f0; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Career Compass</h1>
+    <p>Ask me about resumes, interviews, salaries, job searching, and more.</p>
+  </header>
+
+  <div id="chat-window"></div>
+
+  <div id="input-row">
+    <input
+      id="user-input"
+      type="text"
+      placeholder="Ask a career question..."
+      autocomplete="off"
+    />
+    <button id="send-btn">Send</button>
+  </div>
+
+  <script>
+    const chatWindow = document.getElementById('chat-window');
+    const userInput  = document.getElementById('user-input');
+    const sendBtn    = document.getElementById('send-btn');
+
+    function addMessage(text, role) {
+      const el = document.createElement('div');
+      el.className = `message ${role}`;
+      el.textContent = text;
+      chatWindow.appendChild(el);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+      return el;
+    }
+
+    function setUI(disabled) {
+      userInput.disabled = disabled;
+      sendBtn.disabled   = disabled;
+      if (!disabled) userInput.focus();
+    }
+
+    async function sendMessage() {
+      const text = userInput.value.trim();
+      if (!text) return;
+
+      userInput.value = '';
+      addMessage(text, 'user');
+      setUI(true);
+
+      const thinking = addMessage('Thinking…', 'agent thinking');
+
+      try {
+        const res = await fetch('/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: text }),
+        });
+
+        const data = await res.json();
+        thinking.remove();
+
+        if (!res.ok) {
+          addMessage(data.error || 'Something went wrong.', 'error');
+        } else {
+          addMessage(data.reply, 'agent');
+        }
+      } catch (_err) {
+        thinking.remove();
+        addMessage('Could not reach the server. Is it running?', 'error');
+      }
+
+      setUI(false);
+    }
+
+    sendBtn.addEventListener('click', sendMessage);
+    userInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+    });
+
+    userInput.focus();
+  </script>
+</body>
+</html>
