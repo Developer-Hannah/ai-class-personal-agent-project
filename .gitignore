@@ -19,6 +19,7 @@ pnpm-debug.log*
 .env
 .env.*
 !.env.example
+.testEnvVars
 
 # Node.js dependencies/build
 node_modules/
@@ -30,3 +31,9 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Project-local workspace and AI tooling
+ai/
+.cursorrules
+CLAUDE.md
+claude.md
