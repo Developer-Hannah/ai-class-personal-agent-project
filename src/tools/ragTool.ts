@@ -1,9 +1,9 @@
 import { tool } from "@langchain/core/tools";
 import { z } from "zod";
-import type { MemoryVectorStore } from "@langchain/classic/vectorstores/memory";
+import type { VectorStore } from "@langchain/core/vectorstores";
 import { logToolCall } from "../logger.js";
 
-export function createRagTool(vectorStore: MemoryVectorStore) {
+export function createRagTool(vectorStore: VectorStore) {
   return tool(
     async ({ query }) => {
       const results = await vectorStore.similaritySearch(query, 3);

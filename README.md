@@ -57,6 +57,32 @@ Every tool call is logged to the terminal in structured format:
 
 **Multi-tool chain** — "The job listing says $120k. Search what the market rate is, then calculate how much that is per month after 30% tax."
 
+## Stretch Features
+
+### Streaming
+Responses stream token-by-token in the UI automatically — no configuration needed.
+
+### File Reader Tool
+Place any `.txt` file in the `uploads/` folder, then ask the agent to read it:
+> "Read my job description from job-desc.txt and tell me what skills they are looking for."
+
+### ChromaDB Persistent Vector Store
+Documents survive server restarts — no re-embedding after the first run.
+
+**Requirements:** Docker installed and running.
+
+```bash
+# Start ChromaDB before starting the server
+docker run -p 8000:8000 chromadb/chroma
+
+# Then start the server as normal
+npm run dev
+```
+
+On first start the 6 career docs are embedded and stored in ChromaDB. On subsequent starts they are loaded instantly with no OpenAI API calls.
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
