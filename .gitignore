@@ -32,8 +32,9 @@ __pycache__/
 .venv/
 venv/
 
-# Project-local workspace and AI tooling
+# Local AI workspace (gitignored by project convention)
 ai/
-.cursorrules
+
+# Cursor/Claude config files
 CLAUDE.md
-claude.md
+.cursorrules
