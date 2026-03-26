@@ -1,35 +1,33 @@
-Resume Writing Tips for Job Seekers
+Title: Resume Writing Basics
+Source URL: https://www.careeronestop.org/JobSearch/Resumes/resumes.aspx
+Publisher: CareerOneStop (U.S. Department of Labor sponsored)
+Accessed: 2026-03-26
+Use: Paraphrased educational summary for local RAG
 
-A strong resume is your first impression with a potential employer. It must be clear, concise, and tailored to the specific role you are applying for.
+OVERVIEW
+Your resume should help employers quickly confirm that you meet minimum qualifications. Reviewers often scan very fast, so key qualifications and role-relevant terms should appear early and clearly.
 
-FORMAT AND LENGTH
-Keep your resume to one page if you have less than ten years of experience. Two pages is acceptable for senior professionals. Use a clean, readable font like Calibri, Arial, or Georgia at 10–12pt. Leave adequate white space — a cluttered resume is hard to scan.
+CORE GUIDELINES
+- Keep formatting simple and easy to read.
+- Keep length focused, usually one to two pages.
+- Use language that matches the role you are targeting.
+- Prioritize evidence that aligns with the posting.
 
-CONTACT INFORMATION
-Put your name prominently at the top. Include your city and state (not full address), professional email address, LinkedIn URL, and phone number. A GitHub profile or portfolio link is valuable for technical roles.
+WHAT TO INCLUDE
+- Contact details employers can use immediately.
+- A targeted summary or highlights section when useful.
+- Work history with concrete accomplishments.
+- Technical or professional skills relevant to the job.
+- Education and credentials needed for the role.
 
-PROFESSIONAL SUMMARY
-Open with a 2–3 sentence summary that highlights your most relevant experience and what you bring to the role. Tailor this section for every application. Avoid generic phrases like "hard worker" or "team player."
+TARGETING FOR ATS AND HUMAN READERS
+Many employers use applicant tracking systems (ATS). That means your resume should include exact keywords from job postings where they truthfully apply to your experience. A strong approach is to scan multiple postings for the same role and identify recurring requirements.
 
-WORK EXPERIENCE
-List positions in reverse chronological order. For each role include: job title, company name, location, and dates (month/year). Use bullet points starting with strong action verbs: led, built, reduced, increased, designed, managed. Quantify achievements wherever possible — "Reduced deployment time by 40%" is stronger than "Improved deployment process."
+QUALITY CHECK BEFORE SUBMITTING
+- Proofread for grammar, spelling, punctuation, and clarity.
+- Confirm details are accurate and truthful.
+- Ensure file format and submission instructions match the posting.
+- Ask another person to review readability and relevance.
 
-SKILLS SECTION
-List technical skills, tools, and programming languages relevant to the role. Keep it honest — you should be able to answer interview questions on anything listed. Group skills logically: Languages, Frameworks, Tools, Platforms.
-
-EDUCATION
-List degree, major, university name, graduation year. Include GPA only if above 3.5. Relevant coursework, honors, and extracurricular activities can be included for recent graduates.
-
-TAILORING YOUR RESUME
-Read the job description carefully and mirror the language used. If the posting says "cross-functional collaboration," use that phrase if it accurately describes your experience. Applicant Tracking Systems (ATS) scan for keyword matches before a human ever reads your resume.
-
-COMMON MISTAKES TO AVOID
-- Using a generic resume for every application
-- Including an "Objective" statement (use a Summary instead)
-- Listing job duties instead of accomplishments
-- Spelling or grammar errors (proofread at least three times)
-- Using personal pronouns ("I," "my")
-- Including references or "References available upon request"
-
-ACTION VERBS TO USE
-Achieved, Analyzed, Built, Coordinated, Delivered, Designed, Developed, Directed, Drove, Established, Executed, Generated, Implemented, Improved, Increased, Launched, Led, Managed, Negotiated, Optimized, Produced, Reduced, Streamlined, Transformed.
+USING AI TO ASSIST
+AI tools can help brainstorm wording, suggest alternatives, or compare your resume against a posting. Final editing should still be done by you so the document stays accurate, authentic, and specific to your background.

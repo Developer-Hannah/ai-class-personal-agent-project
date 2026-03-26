@@ -4,6 +4,15 @@ import type { VectorStore } from "@langchain/core/vectorstores";
 import { logToolCall } from "../logger.js";
 
 export function createRagTool(vectorStore: VectorStore) {
+  function readMeta(pageContent: string, key: string): string | null {
+    const prefix = `${key}:`;
+    const line = pageContent
+      .split("\n")
+      .map((s) => s.trim())
+      .find((s) => s.startsWith(prefix));
+    return line ? line.slice(prefix.length).trim() : null;
+  }
+
   return tool(
     async ({ query }) => {
       const results = await vectorStore.similaritySearch(query, 3);
@@ -13,10 +22,13 @@ export function createRagTool(vectorStore: VectorStore) {
         result = "No relevant documents found in the knowledge base.";
       } else {
         result = results
-          .map(
-            (doc, i) =>
-              `[${i + 1}] (Source: ${doc.metadata.source})\n${doc.pageContent}`
-          )
+          .map((doc, i) => {
+            const title = readMeta(doc.pageContent, "Title");
+            const sourceUrl = readMeta(doc.pageContent, "Source URL");
+            const sourceLabel = title ?? doc.metadata.source;
+            const urlPart = sourceUrl ? ` | URL: ${sourceUrl}` : "";
+            return `[${i + 1}] (Source: ${sourceLabel}${urlPart})\n${doc.pageContent}`;
+          })
           .join("\n\n");
       }
 

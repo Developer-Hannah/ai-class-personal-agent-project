@@ -1,53 +1,29 @@
-LinkedIn Profile Optimization Guide
+Title: Social Media Profile Optimization for Job Search
+Source URL: https://www.careeronestop.org/JobSearch/Network/online-network.aspx
+Publisher: CareerOneStop (U.S. Department of Labor sponsored)
+Accessed: 2026-03-26
+Use: Paraphrased educational summary for local RAG
 
-A well-optimized LinkedIn profile works for you 24/7. Recruiters actively search the platform using keywords, and a strong profile gets you inbound opportunities rather than just outbound applications.
+OVERVIEW
+Social media can improve job search outcomes by helping candidates research employers, build industry connections, and present a professional profile. Employers may review public profiles during hiring.
 
-PROFILE PHOTO
-Use a professional, high-quality headshot. You do not need a photographer — a well-lit photo against a plain background with a friendly expression works well. Profiles with photos get significantly more views. Use a recent photo.
+HOW TO USE PLATFORMS EFFECTIVELY
+- Follow target employers to track openings and company priorities.
+- Connect with professionals, recruiters, and relevant employees.
+- Participate in industry groups and discussions.
+- Share useful projects, insights, or field-relevant content.
+- Use portfolio links or work samples to strengthen credibility.
 
-HEADLINE
-Your headline appears everywhere on LinkedIn — in search results, connection requests, and messages. Do not just list your job title. Instead, describe what you do and the value you deliver:
+PROFILE STANDARDS
+- Use a recent professional photo.
+- Keep profile details current and aligned with target roles.
+- Highlight skills and experience with searchable keywords.
+- Review privacy settings and public visibility.
+- Remove content that could hurt professional perception.
+- Proofread posts and profile text for grammar and clarity.
 
-Weak: "Software Engineer at Acme Corp"
-Strong: "Full-Stack Engineer | React & Node.js | Building scalable web products"
+LINKEDIN-SPECIFIC NOTES
+Career-focused platforms such as LinkedIn are especially important for keyword visibility, professional networking, and recruiter discovery. Keep headlines, skills, and role descriptions aligned with the types of jobs you are pursuing.
 
-Use keywords that recruiters search for. Include your specialization, key technologies, and optionally your current company or a short value statement.
-
-ABOUT SECTION
-Write in first person. Tell your professional story in 3–5 paragraphs:
-1. Who you are and what you do
-2. What you are most skilled at (with specifics)
-3. Key career accomplishments
-4. What you are looking for next or excited about
-
-End with a call to action: "Feel free to reach out if you'd like to connect." Use keywords naturally throughout.
-
-EXPERIENCE SECTION
-Mirror the quality of your resume here. Use bullet points with strong action verbs and quantified results. For each role, include 3–6 bullets focused on impact, not just duties. LinkedIn allows more space than a resume — use it.
-
-SKILLS AND ENDORSEMENTS
-Add your top 15–20 skills. Prioritize skills that appear in the job descriptions you are targeting. Reorder them so your most relevant skills appear first (you can drag to reorder). Endorsements from colleagues add credibility, especially for top skills.
-
-RECOMMENDATIONS
-Request recommendations from managers, peers, or clients. A genuine recommendation from a manager carries significant weight. Be specific when asking: "Could you write a recommendation highlighting our work on the X project and the impact it had?" Make it easy for them.
-
-FEATURED SECTION
-Pin your most impressive work here: articles you have written, projects, presentations, certifications, or a portfolio link. This section appears prominently on your profile and is one of the first things visitors see.
-
-ACTIVITY AND CONTENT
-Posting regularly (even once a week) dramatically increases your visibility. Share:
-- Industry insights or opinions
-- Project updates or lessons learned
-- Articles or resources you found valuable
-- Career milestones
-
-Engaging with others' posts (comments, not just likes) also increases your reach. Thoughtful comments on posts from leaders in your industry build your visibility.
-
-OPEN TO WORK
-You can signal to recruiters that you are open to opportunities without broadcasting it to your network. Use the "Open to Work" setting and choose "Recruiters only." Specify the roles, locations, and job types you are interested in — this dramatically increases inbound recruiter messages.
-
-LINKEDIN URL
-Customize your LinkedIn URL (linkedin.com/in/yourname) to make it clean for your resume and email signature. Go to Edit Profile → Edit public profile & URL.
-
-CONNECTIONS
-Quality matters more than quantity, but a larger network increases your reach. Target 500+ connections. Connect with coworkers, classmates, conference attendees, and people you have met professionally. Always personalize connection requests with a brief note.
+SAFETY AND PROFESSIONALISM
+Assume employers may view what is public. Only publish content, comments, and media you would be comfortable discussing in an interview.

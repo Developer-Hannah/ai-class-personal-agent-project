@@ -1,43 +1,34 @@
-Cover Letter Writing Guide
+Title: Cover Letter Guidance
+Source URL: https://www.careeronestop.org/JobSearch/Resumes/cover-letters.aspx
+Publisher: CareerOneStop (U.S. Department of Labor sponsored)
+Accessed: 2026-03-26
+Use: Paraphrased educational summary for local RAG
 
-A great cover letter is not a summary of your resume — it is a targeted pitch that explains why you specifically are the right person for this specific role at this specific company. It bridges the gap between your resume and the job description.
+OVERVIEW
+A cover letter is a focused pitch that explains why your background matches a specific role. It can highlight strengths that are not obvious from resume bullets alone.
 
-WHEN TO WRITE ONE
-Always submit a cover letter unless the application explicitly says not to. Even when listed as optional, a compelling letter differentiates you. Hiring managers who read cover letters are often the ones making final decisions.
+WHEN TO INCLUDE ONE
+- Required if the posting asks for a cover letter.
+- Usually helpful even when marked optional.
+- If you email a resume directly, the email body can often serve as the letter.
 
-STRUCTURE
-Keep it to three to four paragraphs, fitting on one page. Use a standard business letter format.
+RECOMMENDED LENGTH AND STRUCTURE
+Keep the letter concise, generally around 200 to 400 words in about three to four short paragraphs.
 
-Opening paragraph: Hook them immediately. Lead with the most compelling reason you are a strong candidate, or with a specific connection to the company. Avoid "I am applying for the position of..." — that is obvious.
+Suggested sections:
+1. Heading and greeting with contact details and a named recipient when possible.
+2. Intro paragraph stating role interest and context.
+3. Body paragraphs connecting your skills and achievements to employer needs.
+4. Closing paragraph thanking the reader and signaling follow-up interest.
 
-Example: "When I saw that Acme Corp is expanding into European markets, I immediately thought of the two years I spent building international payment systems at FinTech Co — scaling from 3 to 14 currencies while maintaining 99.9% uptime."
+CUSTOMIZATION PRINCIPLES
+- Tailor each letter to one employer and one role.
+- Reference specific qualifications from the posting.
+- Explain how your experience can contribute to the organization.
+- Keep tone professional, energetic, and specific.
 
-Middle paragraph(s): Connect your experience directly to the top two or three requirements in the job description. Use specific examples with results, not generic claims. If the job description says "cross-functional leadership," describe a specific time you led cross-functional work and what it produced.
-
-Closing paragraph: Express genuine enthusiasm for the company and role. Reference something specific about the company — a product, mission statement, or recent development — that resonates with you. Include a clear call to action: "I would welcome the opportunity to discuss how my background aligns with what you are building."
-
-TAILORING IS EVERYTHING
-Never send a generic cover letter. For each application:
-1. Re-read the job description and underline the top 3 requirements
-2. Match each requirement to a specific achievement from your background
-3. Research the company and reference something specific
-4. Mirror the language and tone from the job posting
-
-A tailored cover letter takes 30–45 minutes but substantially increases your callback rate.
-
-TONE AND VOICE
-Write in a confident, professional, but conversational tone. Avoid stiff corporate language. Read your letter out loud — if it sounds like something a robot wrote, rewrite it. Use "I" freely. Show personality without being informal.
-
-COMMON MISTAKES
-- Restating your entire resume in paragraph form
-- Starting every sentence with "I"
-- Focusing on what you want, not what you offer
-- Generic praise: "I have always admired your company's commitment to innovation"
-- Typos, grammar errors, or getting the company name wrong
-- Exceeding one page
-
-LENGTH AND FORMAT
-Three to four focused paragraphs is ideal. Never exceed one page. Use the same font and header style as your resume for a cohesive application package. Save as PDF unless the employer specifies otherwise.
-
-ADDRESSING THE LETTER
-Use "Dear [Hiring Manager's Name]" if you can find it. Research LinkedIn or the company website. If you genuinely cannot find a name, use "Dear Hiring Team" — not "To Whom It May Concern."
+PRACTICAL TIPS
+- Avoid generic greetings when a specific person or role title is available.
+- Reuse a template structure, but rewrite content for each application.
+- Review carefully for errors before sending.
+- If AI is used for drafting, edit heavily so the final result reflects your real voice and facts.

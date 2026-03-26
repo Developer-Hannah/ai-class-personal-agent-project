@@ -1,52 +1,32 @@
-Job Interview Preparation Guide
+Title: Interview Preparation Tips
+Source URL: https://www.careeronestop.org/JobSearch/Interview/interview-tips.aspx
+Publisher: CareerOneStop (U.S. Department of Labor sponsored)
+Accessed: 2026-03-26
+Use: Paraphrased educational summary for local RAG
 
-Preparation is the single biggest factor in interview success. Candidates who research thoroughly and practice deliberately consistently outperform those who "wing it."
+OVERVIEW
+Interviews are both an evaluation and a two-way fit check. Good preparation improves confidence and helps you provide clear, relevant examples.
 
 BEFORE THE INTERVIEW
-Research the company: Read their website, recent news, annual reports, and Glassdoor reviews. Know their products, mission, competitors, and recent challenges. Be able to answer "Why do you want to work here?" with specifics, not generic praise.
+- Practice common questions out loud.
+- Prepare short stories that show strengths, learning ability, flexibility, leadership, and problem solving.
+- Compare each job requirement with your experience so you can address gaps directly.
+- Prepare thoughtful questions about the role, team, tools, and company direction.
 
-Research the role: Re-read the job description. Map every requirement to a concrete example from your experience. Identify the two or three most critical skills they are looking for.
+DAY-OF EXECUTION
+- Arrive about 10 to 15 minutes early.
+- Dress in a way that fits the role and workplace.
+- Bring notes and materials you may need.
+- Silence your phone and remove distractions.
 
-Research your interviewers: If you know their names from the scheduling email, look them up on LinkedIn. Understanding their background helps you tailor your answers and ask better questions.
+COMMUNICATION DURING THE INTERVIEW
+- Let the interviewer lead pacing, but answer with confidence.
+- Keep body language positive and attentive.
+- Listen fully before answering and ask for clarification when needed.
+- Give honest, specific responses that connect your background to job needs.
 
-THE STAR METHOD
-For behavioral questions ("Tell me about a time when..."), use the STAR structure:
-- Situation: Set the context briefly
-- Task: Describe your responsibility
-- Action: Explain exactly what you did (use "I," not "we")
-- Result: Share the outcome, quantified if possible
-
-Example: "Tell me about a time you handled a tight deadline."
-STAR answer: "In Q3 last year (S), I was responsible for delivering a new payment integration in two weeks instead of the planned six (T). I reorganized the sprint, cut scope with stakeholder approval, and worked directly with the API provider to resolve a blocking issue (A). We shipped on time and the feature processed $200K in transactions in the first month (R)."
-
-COMMON INTERVIEW QUESTIONS
-- Tell me about yourself. (2-minute career summary, not a life story)
-- Why do you want this role?
-- What is your greatest strength? (Pick one, give a specific example)
-- What is your greatest weakness? (Real weakness + how you are improving it)
-- Where do you see yourself in 5 years?
-- Why are you leaving your current job?
-- Tell me about a conflict with a coworker and how you resolved it.
-- Describe a project you are most proud of.
-
-TECHNICAL INTERVIEWS
-For coding/technical roles: practice problems on LeetCode or HackerRank. Review data structures (arrays, hash maps, trees, graphs) and common algorithms (sorting, binary search, BFS/DFS). Practice explaining your thought process out loud — interviewers value communication as much as correctness.
-
-QUESTIONS TO ASK THE INTERVIEWER
-Always prepare 3–5 questions. Good options:
-- What does success look like in this role after 90 days?
-- What are the biggest challenges facing the team right now?
-- How would you describe the team culture?
-- What do you personally enjoy most about working here?
-- What are the next steps in the process?
-
-Avoid asking about salary, vacation, or remote work policy in the first interview unless the interviewer brings it up.
-
-LOGISTICS
-- Confirm location, time zone, and format (virtual vs. in-person) in advance
-- Arrive or log in 5–10 minutes early
-- Bring extra copies of your resume if in-person
-- Send a thank-you email within 24 hours to each interviewer
-
-AFTER THE INTERVIEW
-Write down the questions you were asked while they are fresh. If you did not answer a question well, note it for next time. Send individual thank-you notes that reference something specific from each conversation.
+HOW TO CLOSE STRONGLY
+- Re-emphasize key strengths relevant to the role.
+- Confirm your interest if you want the position.
+- Ask about timeline and next steps.
+- Send a short thank-you note after the interview.
