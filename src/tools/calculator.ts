@@ -1,15 +1,18 @@
 import { tool } from "@langchain/core/tools";
 import { evaluate } from "mathjs";
 import { z } from "zod";
+import { logToolCall } from "../logger.js";
 
 export const calculatorTool = tool(
   async ({ expression }) => {
+    let result: string;
     try {
-      const result = evaluate(expression);
-      return String(result);
+      result = String(evaluate(expression));
     } catch (e) {
-      return `Error: ${(e as Error).message}`;
+      result = `Error: ${(e as Error).message}`;
     }
+    logToolCall("calculator", { expression }, result);
+    return result;
   },
   {
     name: "calculator",

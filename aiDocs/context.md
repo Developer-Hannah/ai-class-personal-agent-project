@@ -20,6 +20,6 @@
 
 ## Current Focus
 
-- Project scaffolding and documentation
-- Acquire API keys before any code can run
-- Next: execute Phase 0 setup roadmap tasks and commit project scaffold
+- MVP complete — all core requirements met
+- Project is submittable
+- Stretch goals available in Phase 8 (optional)
